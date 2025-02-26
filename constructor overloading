@@ -1,0 +1,21 @@
+public class Book{
+       String title="with the photographer";
+       String author="stephen leacock";
+       public Book(){
+       System.out.println("title:"+title);
+       System.out.println("author:"+author);}
+           public Book(String mytitle,String myauthor){
+               this.title=mytitle;
+               this.author=myauthor;
+               System.out.println("title:"+title);
+               System.out.println("author:"+author);}
+               public static void main (String[]args){
+                   Book a=new Book();
+                   Book b=new Book("kabuliwala","rabindranath tagore");
+               }
+   }
+               
+           
+       
+       
+   
