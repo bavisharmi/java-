@@ -12,8 +12,10 @@ public class Book{
                public static void main (String[]args){
                    Book a=new Book();
                    Book b=new Book("kabuliwala","rabindranath tagore");
+                   Book c=new Book("taxi driver","k.s.dunggal");
+                   Book d=new Book("the travel by train","jhon");
                }
-   }
+}
                
            
        
